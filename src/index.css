@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  background: url("./adventure_time_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wr {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.player {
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.player_minus {
+  width: 100%;
+  height: 32px;
+  background: red;
+  border-radius: 0.75rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+}
+.player_minus:hover {
+  background: rgb(194, 0, 0);
+  cursor: pointer;
+}
+
+.health {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.entity {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.entities {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.custom-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custom-input input {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+}
+
+.custom-input button {
+  background-color: #dd7e31;
+  color: white;
+  border: none;
+  width: 48px;
+  height: 48px;
+  padding: 0.7rem 1rem;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+input {
+  width: 50px;
+  text-align: center;
+}
