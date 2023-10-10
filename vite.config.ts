@@ -44,5 +44,6 @@ export default defineConfig({
         ]
       }
 		})
-	]
+	],
+    base: "/adventure-time-card-wars-helper/"
 })
