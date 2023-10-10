@@ -121,6 +121,9 @@ dist
 
 # yarn v2
 .yarn/cache
+
+# MacOS files
+.DS_Store
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
